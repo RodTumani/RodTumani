@@ -1,0 +1,630 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+p {
+    color: rgb(85,85,85);
+}
+
+a, .btn{
+    transition: all 300ms ease;
+}
+
+nav, .nav-links{
+    display: flex;
+}
+
+nav{
+    justify-content: space-around;
+    align-items: center;
+    height: 17vh;
+}
+
+.nav-links{
+    gap: 2rem;
+    list-style: none;
+    font-size: 1.5rem;
+}
+
+a {
+    color:black;
+    text-decoration:none;
+    text-decoration-color:white;
+}
+
+a:hover{
+    color: grey;
+    text-decoration:underline;
+    text-underline-offset: 1rem;
+    text-decoration-color: rgb(181,181,181);
+}
+
+.navbar-MyName{
+    font-size: 2rem;
+}
+
+ .logo:hover{
+     cursor:default;
+ }
+
+ section {
+     padding-top: 4vh;
+     height: 96vh;
+     margin: 0 10rem;
+     box-sizing: border-box;
+     min-height: fit-content;
+ }
+
+ .section.container, #profile{
+     display: flex;
+     justify-content:center;
+     gap:5rem;
+     height: 80vh;
+ }
+
+.section_pic-container {
+    display:flex;
+    height: 400px;
+    width: 400px;
+    margin: auto 0;
+    border-radius: 50%; /* Makes the container circular */
+    overflow: hidden;
+    justify-content: center; /* Centers the image horizontally */
+    align-items: center; /* Centers the image vertically */
+}
+
+    .section_pic-container img {
+        width: auto; /* Adjusts width proportionally */
+        height: 100%; /* Ensures the height fills the container */
+        object-fit: contain; /* Ensures the image isn't cropped */
+    }
+
+/* Centering Home Section */
+#home {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* Full height of the viewport */
+    padding: 20px;
+}
+
+.home-container {
+    display: flex;
+    align-items: center;
+    gap: 30px; /* Space between image and text */
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.home-image img {
+    width: 300px;
+    height: auto;
+    border-radius: 50%; /* Circular image */
+}
+
+.home-text {
+    text-align: left;
+}
+
+.home-text h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+.home-text .btn-container {
+    margin: 20px 0;
+}
+
+#socials-container {
+    display: flex;
+    gap: 15px;
+    margin-top: 10px;
+}
+
+#socials-container .icon {
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+}
+
+ .section_text{
+     align-self:center;
+     text-align:center;
+ }
+
+ .section_text p {
+     font-weight: 600;
+ }
+
+ .textP1{
+     font-size:14px;
+     text-align:center;
+     align-self:center;
+ }
+
+ .title{
+     font-size: 3rem;
+     text-align:center;
+ }
+
+ #socials-container{
+     display:flex;
+     justify-content: center;
+     margin-top: 1rem;
+     gap: 1rem;
+ }
+
+ .icon{
+     cursor:pointer;
+     height:2rem;
+ }
+
+.btn-container{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.btn{
+    font-weight: 600;
+    transition: all 300ms ease;
+    padding: 1rem;
+    width: 8rem;
+    border-radius: 2rem;
+}
+
+.btn-color-1,
+.btn-color-2{
+    border:rgb(53,53,53) 0.1rem solid;
+}
+
+.btn-color-1:hover,
+.btn-color-2:hover{
+    cursor:pointer;
+}
+
+.btn-color-1,
+.btn-color-2:hover{
+    background: rgb(53,53,53);
+    color:white;
+}
+
+.btn-color-2{
+    background:none;
+}
+
+.btn-color-2:hover{
+    border: rgb(255,255,255) 0.1rem solid;
+}
+
+.btn-container{
+    gap: 1rem;
+}
+
+.section_pic2-container {
+    border-radius: 50%;
+    justify-content: center;
+    align-content: center;
+    height: 300px;
+    width: 300px;
+}
+.section_pic2-container img {
+    width: auto;
+    height: 100%;
+    object-fit: contain;
+}
+
+.section-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.section_pic2-container {
+    flex: 1;
+    margin-right: 20px;
+}
+
+.about-pic {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.Introduction-text {
+    flex: 2;
+    font-size: 1.3rem;
+    line-height: 1.8;
+    padding: 10px 20px;
+}
+
+.about-details-container {
+    margin-top: 20px;
+}
+
+    .about-details-container h2 {
+        font-size: 1.5rem;
+        margin-top: 30px;
+        margin-bottom: 10px;
+    }
+
+.interests-list {
+    list-style-type: disc;
+    padding-left: 20px;
+    margin-bottom: 20px;
+}
+
+    .interests-list li {
+        margin-bottom: 5px;
+        font-size: 1.2rem;
+    }
+
+.FutureGoals-text {
+    font-size: 1.2rem;
+    line-height: 1.6;
+}
+
+/* Container for title and image */
+.education-title-container {
+    display: flex;
+    align-items: center; /* Align title and image vertically */
+    gap: 15px; /* Add spacing between the title and the image */
+    margin-bottom: 10px; /* Add some space below the title container */
+}
+
+/* Title styling */
+.education-title {
+    font-size: 1.8rem;
+    margin: 0;
+}
+
+/* Image styling */
+.icon {
+    max-width: 60px; /* Adjust size of the logo */
+    height: auto;
+    border-radius: 5px; /* Optional: Add slight rounding to the image */
+}
+
+/* Intro text styling */
+.education-text {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+/* Coursework heading styling */
+.ou-courses-title {
+    font-size: 1.5rem;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+/* Coursework list styling */
+.ou-courses-list {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+    .ou-courses-list li {
+        font-size: 1rem;
+        margin-bottom: 5px;
+    }
+
+/* Centralized page title */
+.experience-page-title {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+    .experience-page-title h1 {
+        font-size: 2.5rem;
+        color: #333;
+        margin: 0;
+    }
+
+/* Parent container for side-by-side layout */
+.experience-container {
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 20px;
+}
+
+/* Styling for education and professional journey containers */
+.education-container,
+.professional-container {
+    padding: 1.5rem;
+    flex: 1;
+    background: white;
+    border-radius: 2rem;
+    border: rgb(53,53,53) 0.1rem solid;
+    border-color: rgb(163,163,163);
+}
+
+/* Professional Journey Title */
+.professional-title {
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+}
+
+/* Professional journey items */
+.journey-item {
+    margin-bottom: 20px;
+}
+
+/* Journey title container for icon and title */
+.journey-title-container {
+    display: flex;
+    align-items: center;
+    gap: 10px; /* Space between icon and title */
+    margin-bottom: 5px;
+}
+
+.job-title {
+    font-size: 1.5rem;
+}
+
+/* Icon styling */
+.icon {
+    max-width: 40px; /* Adjust icon size */
+    height: auto;
+    border-radius: 5px; /* Optional: Add rounding to icons */
+}
+
+/* Job description styling */
+.job-description {
+    font-size: 1.1rem;
+    line-height: 1.6;
+}
+
+/* General styling for the skills page */
+.skills-page-title {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+    .skills-page-title h1 {
+        font-size: 2.5rem;
+        color: #333;
+    }
+
+/* Skills sections */
+.skills-section {
+    margin: 40px 0;
+}
+
+.skills-title {
+    font-size: 1.8rem;
+    text-align: center;
+    text-decoration: underline;
+    text-underline-offset: 0.5rem;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #333;
+}
+
+/* Skills grid layout */
+.skills-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+    gap: 20px;
+    justify-items: center;
+    align-items: center;
+    margin: 0 auto;
+    max-width: 800px;
+    flex-wrap: wrap;
+}
+
+/* Individual skill items */
+.skill-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+/* Icons for programming languages */
+.skill-icon {
+    width: 60px;
+    height: 60px;
+    margin-bottom: 10px;
+}
+
+/* Text for each skill */
+.skill-text {
+    font-size: 1rem;
+    font-weight: normal;
+    color: #555;
+    margin-bottom:30px
+}
+
+/* Analytics icons */
+.analytics-icons {
+    width: 60px; /* Set the size of the icons */
+    height: 60px; /* Keep the aspect ratio consistent */
+    margin-bottom: 10px; /* Add spacing below the icons */
+    transition: transform 0.2s ease-in-out; /* Add a hover effect */
+}
+
+    /* Hover effect for icons */
+    .analytics-icons:hover {
+        transform: scale(1.1); /* Slightly enlarge the icon on hover */
+        cursor: pointer; /* Indicate interactivity (if needed) */
+    }
+
+/* Footer styles */
+.site-footer {
+    background-color: #f8f9fa; /* Light gray background */
+    color: #6c757d; /* Muted text color */
+    text-align: center; /* Center align the text */
+    padding: 10px 20px; /* Add some padding for spacing */
+    position: relative; /* Ensure it adjusts with content */
+    bottom: 0; /* Stick it to the bottom */
+    width: 100%; /* Full width */
+    border-top: 1px solid #ddd; /* Optional: subtle border on top */
+    font-size: 0.9rem; /* Slightly smaller font */
+}
+
+/* Sticky footer if the content is small */
+html {
+    height: 100%;
+}
+
+body {
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    flex: 1; /* Ensures main content takes up available space */
+}
+
+.FutureGoals-text{
+    padding-bottom:1.2rem;
+}
+
+/* General styling for the Projects page */
+.projects-container {
+    margin: 20px auto;
+    max-width: 800px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px; /* Space between project items */
+    margin-bottom: 40px;
+}
+
+/* Styling for individual project items */
+.project-item {
+    padding: 1.5rem;
+    flex: 1;
+    background:white;
+    border-radius: 2rem;
+    border: rgb(53,53,53) 0.1rem solid;
+    border-color: rgb(163,163,163);
+}
+
+/* Project title styling */
+.project-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+/* Project description styling */
+.project-description {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    margin-bottom: 10px;
+    color: #555;
+}
+
+/* Project link styling */
+.project-link {
+    font-size: 1rem;
+    color: #007bff;
+    text-decoration: underline;
+    transition: color 0.2s;
+}
+
+    .project-link:hover {
+        color: #0056b3;
+    }
+
+/* Title styling for the page */
+.title {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+    color: #333;
+}
+
+/* Optionally, target the last project specifically */
+.project-item:last-child {
+    margin-bottom: 40px; /* Add space below the last project */
+}
+/* Contact Section */
+#contact {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 70vh;
+}
+
+/* Upper container for the contact information */
+.contact-info-upper-container {
+    display: flex;
+    justify-content: center;
+    border-radius: 2rem;
+    border: rgb(163, 163, 163) 0.1rem solid;
+    margin: 2rem auto;
+    padding: 0.5rem 1rem;
+}
+
+/* Individual contact information container */
+.contact-info-container {
+    display: flex;
+    align-items: center; /* Ensures icons and text are aligned vertically */
+    justify-content: center;
+    gap: 0.5rem; /* Space between icon and text */
+    margin: 1rem;
+}
+
+    /* Paragraph styling inside contact info container */
+    .contact-info-container p {
+        font-size: 1.2rem; /* Slightly larger font for readability */
+        margin: 0; /* Remove any default margin that may misalign text */
+        display: flex; /* Ensure proper alignment */
+        align-items: center; /* Vertically center text within the container */
+    }
+
+/* Styling for icons */
+.contact-icon {
+    height: 2rem; /* Consistent height for icons */
+    width: auto; /* Maintain aspect ratio */
+    display: block; /* Ensure icon aligns properly in the flex container */
+}
+
+/* General Skills Section Styling */
+.skills-section {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.skills-title {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+/* Skills Grid - Displaying Items Horizontally */
+.skills-grid {
+    display: flex;
+    flex-wrap: wrap; /* Allows items to wrap to the next row if they don't fit */
+    justify-content: center; /* Centers items horizontally */
+    gap: 20px; /* Adds spacing between items */
+}
+
+/* Skill Icons Styling */
+.skill-icon,
+.analytics-icons {
+    width: 80px;
+    height: 80px;
+    object-fit: contain; /* Ensures the entire icon fits without distortion */
+}
+
+/* Skill Text Styling */
+.skill-text {
+    display: inline-block;
+    font-size: 1.2rem;
+    margin: 0 15px; /* Adds horizontal spacing between text items */
+}
