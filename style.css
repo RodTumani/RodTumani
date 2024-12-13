@@ -491,66 +491,6 @@ main {
     padding-bottom:1.2rem;
 }
 
-/* General styling for the Projects page */
-.projects-container {
-    margin: 20px auto;
-    max-width: 800px;
-    display: flex;
-    flex-direction: column;
-    gap: 20px; /* Space between project items */
-    margin-bottom: 40px;
-}
-
-/* Styling for individual project items */
-.project-item {
-    padding: 1.5rem;
-    flex: 1;
-    background:white;
-    border-radius: 2rem;
-    border: rgb(53,53,53) 0.1rem solid;
-    border-color: rgb(163,163,163);
-}
-
-/* Project title styling */
-.project-title {
-    font-size: 1.5rem;
-    font-weight: bold;
-    margin-bottom: 10px;
-    color: #333;
-}
-
-/* Project description styling */
-.project-description {
-    font-size: 1.2rem;
-    line-height: 1.6;
-    margin-bottom: 10px;
-    color: #555;
-}
-
-/* Project link styling */
-.project-link {
-    font-size: 1rem;
-    color: #007bff;
-    text-decoration: underline;
-    transition: color 0.2s;
-}
-
-    .project-link:hover {
-        color: #0056b3;
-    }
-
-/* Title styling for the page */
-.title {
-    text-align: center;
-    font-size: 2.5rem;
-    margin-bottom: 30px;
-    color: #333;
-}
-
-/* Optionally, target the last project specifically */
-.project-item:last-child {
-    margin-bottom: 40px; /* Add space below the last project */
-}
 /* Contact Section */
 #contact {
     display: flex;
